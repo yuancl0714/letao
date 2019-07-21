@@ -55,7 +55,4 @@ $(function () {
     $("[type='reset']").on("click", function () {
         $("form").data("bootstrapValidator").resetForm(true);
     })
-
-
-    
 })
